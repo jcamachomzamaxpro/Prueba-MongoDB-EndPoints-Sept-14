@@ -210,14 +210,14 @@
 
 [
     {
-        "cit_fecha": "2023-09-20 10:00 AM",
+        "cit_fecha": "2023-09-20",
         "cit_estadoCita": "Programada",
         "cit_medico": "Dr. Juan Pérez",
         "cit_datosUsuario": {
             "usu_nombre": "Ana",
             "usu_apellido": "López",
             "usu_telefono": 312345678,
-            "usu_direccion": "Calle 456, Ciudad",
+            "usu_direccion": "Calle 456, Bucaramanga",
             "usu_email": "ana@email.com",
             "usu_tipodoc": "Cédula",
             "usu_genero": "Femenino",
@@ -225,7 +225,7 @@
         }
     },
     {
-        "cit_fecha": "2023-09-21 11:30 AM",
+        "cit_fecha": "2023-09-21",
         "cit_estadoCita": "Programada",
         "cit_medico": "Dra. María González",
         "cit_datosUsuario": {
@@ -240,14 +240,14 @@
         }
     },
     {
-        "cit_fecha": "2023-09-22 3:15 PM",
+        "cit_fecha": "2023-09-22",
         "cit_estadoCita": "Programada",
         "cit_medico": "Dr. Carlos Martínez",
         "cit_datosUsuario": {
             "usu_nombre": "Laura",
             "usu_apellido": "Ramírez",
             "usu_telefono": 378901234,
-            "usu_direccion": "Calle 789, Ciudad",
+            "usu_direccion": "Calle 789, Bucaramanga",
             "usu_email": "laura@email.com",
             "usu_tipodoc": "Cédula",
             "usu_genero": "Femenino",
@@ -255,7 +255,7 @@
         }
     },
     {
-        "cit_fecha": "2023-09-23 2:00 PM",
+        "cit_fecha": "2023-09-23",
         "cit_estadoCita": "Programada",
         "cit_medico": "Lic. Ana Rodríguez",
         "cit_datosUsuario": {
@@ -270,14 +270,14 @@
         }
     },
     {
-        "cit_fecha": "2023-09-24 9:45 AM",
+        "cit_fecha": "2023-09-24",
         "cit_estadoCita": "Programada",
         "cit_medico": "Dr. Luis Sánchez",
         "cit_datosUsuario": {
             "usu_nombre": "Sofía",
             "usu_apellido": "Martínez",
             "usu_telefono": 398765432,
-            "usu_direccion": "Calle 567, Ciudad",
+            "usu_direccion": "Calle 567, Bucaramanga",
             "usu_email": "sofia@email.com",
             "usu_tipodoc": "Cédula",
             "usu_genero": "Femenino",
@@ -285,7 +285,7 @@
         }
     },
     {
-        "cit_fecha": "2023-09-25 4:30 PM",
+        "cit_fecha": "2023-09-25",
         "cit_estadoCita": "Programada",
         "cit_medico": "Dr. Miguel López",
         "cit_datosUsuario": {
@@ -300,14 +300,14 @@
         }
     },
     {
-        "cit_fecha": "2023-09-26 1:20 PM",
+        "cit_fecha": "2023-09-26",
         "cit_estadoCita": "Programada",
         "cit_medico": "Dra. Laura García",
         "cit_datosUsuario": {
             "usu_nombre": "Luis",
             "usu_apellido": "Pérez",
             "usu_telefono": 392109876,
-            "usu_direccion": "Calle 901, Ciudad",
+            "usu_direccion": "Calle 901, Bucaramanga",
             "usu_email": "luis@email.com",
             "usu_tipodoc": "Cédula",
             "usu_genero": "Masculino",
@@ -315,7 +315,7 @@
         }
     },
     {
-        "cit_fecha": "2023-09-27 5:00 PM",
+        "cit_fecha": "2023-09-27",
         "cit_estadoCita": "Programada",
         "cit_medico": "Dra. Patricia Fernández",
         "cit_datosUsuario": {
@@ -330,14 +330,14 @@
         }
     },
     {
-        "cit_fecha": "2023-09-28 11:00 AM",
+        "cit_fecha": "2023-09-28",
         "cit_estadoCita": "Programada",
         "cit_medico": "Dr. Eduardo Ramírez",
         "cit_datosUsuario": {
             "usu_nombre": "David",
             "usu_apellido": "Luna",
             "usu_telefono": 393456789,
-            "usu_direccion": "Calle 123, Ciudad",
+            "usu_direccion": "Calle 123, Bucaramanga",
             "usu_email": "david@email.com",
             "usu_tipodoc": "Cédula",
             "usu_genero": "Masculino",
@@ -345,7 +345,7 @@
         }
     },
     {
-        "cit_fecha": "2023-09-29 3:30 PM",
+        "cit_fecha": "2023-09-29",
         "cit_estadoCita": "Programada",
         "cit_medico": "Dr. Ana López",
         "cit_datosUsuario": {
@@ -360,6 +360,7 @@
         }
     }
 ]
+
 
 
 // ---------------------------------------
