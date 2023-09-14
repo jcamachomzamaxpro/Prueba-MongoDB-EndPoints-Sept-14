@@ -1,0 +1,522 @@
+// ---------------------------------------
+// ---------  TIPO DOCUMENTO  ------------
+// ---------------------------------------
+
+[
+    {
+        "tipdoc_nombre": "Tarjeta de Identidad",
+        "tipdoc_abreviatura": "T.I"
+    },
+    {
+        "tipdoc_nombre": "Cedula de Ciudadania",
+        "tipdoc_abreviatura": "C.C."
+    },
+    {
+        "tipdoc_nombre": "Cedula de Extranjeria",
+        "tipdoc_abreviatura": "C.E."
+    },
+    {
+        "tipdoc_nombre": "Pasaporte",
+        "tipdoc_abreviatura": "PA" 
+    }
+]
+
+
+// ---------------------------------------
+// -------------  GENERO  ----------------
+// ---------------------------------------
+
+[
+    {
+        "gen_nombre": "Masculino",
+        "gen_abreviatura": "M"
+    },
+    {
+        "gen_nombre": "Femenino",
+        "gen_abreviatura": "F"
+    }
+]
+
+
+// ---------------------------------------
+// ------------  ACUDIENTE  --------------
+// ---------------------------------------
+
+[
+    {
+        "acu_nombreCompleto": "Pedro Gonzalez",
+        "acu_telefono": 301839123,
+        "acu_direccion": "Cra 100 C # 29 08"
+    },
+    {
+        "acu_nombreCompleto": "Esteban Dario",
+        "acu_telefono": 30912329,
+        "acu_direccion": "Cra 74 C # 19 28"
+    },
+    {
+        "acu_nombreCompleto": "Mariano Diaz",
+        "acu_telefono": 351823123,
+        "acu_direccion": "Calle 14 # 29 08"
+    },
+    {
+        "acu_nombreCompleto": "Maria Zuluaga",
+        "acu_telefono": 32283748,
+        "acu_direccion": "Calle 16 C # 14 74"
+    },
+    {
+        "acu_nombreCompleto": "Pancho Suarez",
+        "acu_telefono": 37236172,
+        "acu_direccion": "Calle 34 # 60 47"
+    },
+    {
+        "acu_nombreCompleto": "Rodrigo Goes",
+        "acu_telefono": 344412312,
+        "acu_direccion": "Avenida 3 Diagonal 15"
+    },
+    {
+        "acu_nombreCompleto": "Saramambiche",
+        "acu_telefono": 355023212,
+        "acu_direccion": "Carrera 98 C # 11 04"
+    },
+    {
+        "acu_nombreCompleto": "Andrea Gonzales",
+        "acu_telefono": 311483487,
+        "acu_direccion": "Cra 60 C # 24 18"
+    },
+    {
+        "acu_nombreCompleto": "Gonzalo Perez",
+        "acu_telefono": 313241723,
+        "acu_direccion": "Cra 10 X # 11 08"
+    },
+    {
+        "acu_nombreCompleto": "Mario Mendez",
+        "acu_telefono": 34567891,
+        "acu_direccion": "Calle 15 # 77 09"
+    }
+]
+
+
+// ---------------------------------------
+// -------------  USUARIOS  --------------
+// ---------------------------------------
+
+[
+    {
+        "usu_nombre": "María",
+        "usu_apellido": "González",
+        "usu_telefono": 312345678,
+        "usu_direccion": "Calle 456, Bucaramanga",
+        "usu_email": "maria@email.com",
+        "usu_tipodoc": "Cédula",
+        "usu_genero": "Femenino",
+        "usu_acudiente": "Pedro González"
+    },
+    {
+        "usu_nombre": "Carlos",
+        "usu_apellido": "López",
+        "usu_telefono": 385432109,
+        "usu_direccion": "Avenida Principal",
+        "usu_email": "carlos@email.com",
+        "usu_tipodoc": "Cédula",
+        "usu_genero": "Masculino",
+        "usu_acudiente": "Ana López"
+    },
+    {
+        "usu_nombre": "Laura",
+        "usu_apellido": "Ramírez",
+        "usu_telefono": 378901234,
+        "usu_direccion": "Calle 789, Bucaramanga",
+        "usu_email": "laura@email.com",
+        "usu_tipodoc": "Cédula",
+        "usu_genero": "Femenino",
+        "usu_acudiente": "Luis Ramírez"
+    },
+    {
+        "usu_nombre": "Andrés",
+        "usu_apellido": "Fernández",
+        "usu_telefono": 387654321,
+        "usu_direccion": "Avenida Secundaria",
+        "usu_email": "andres@email.com",
+        "usu_tipodoc": "Cédula",
+        "usu_genero": "Masculino",
+        "usu_acudiente": "María Fernández"
+    },
+    {
+        "usu_nombre": "Sofía",
+        "usu_apellido": "Martínez",
+        "usu_telefono": 398765432,
+        "usu_direccion": "Calle 567, Bucaramanga",
+        "usu_email": "sofia@email.com",
+        "usu_tipodoc": "Cédula",
+        "usu_genero": "Femenino",
+        "usu_acudiente": "Pedro Martínez"
+    },
+    {
+        "usu_nombre": "Juan",
+        "usu_apellido": "Gómez",
+        "usu_telefono": 395432109,
+        "usu_direccion": "Avenida Principal",
+        "usu_email": "juan@email.com",
+        "usu_tipodoc": "Cédula",
+        "usu_genero": "Masculino",
+        "usu_acudiente": "Ana Gómez"
+    },
+    {
+        "usu_nombre": "Luis",
+        "usu_apellido": "Pérez",
+        "usu_telefono": 392109876,
+        "usu_direccion": "Calle 901, Bucaramanga",
+        "usu_email": "luis@email.com",
+        "usu_tipodoc": "Cédula",
+        "usu_genero": "Masculino",
+        "usu_acudiente": "María Pérez"
+    },
+    {
+        "usu_nombre": "Elena",
+        "usu_apellido": "Díaz",
+        "usu_telefono": 399876543,
+        "usu_direccion": "Avenida Secundaria",
+        "usu_email": "elena@email.com",
+        "usu_tipodoc": "Cédula",
+        "usu_genero": "Femenino",
+        "usu_acudiente": "Carlos Díaz"
+    },
+    {
+        "usu_nombre": "David",
+        "usu_apellido": "Luna",
+        "usu_telefono": 393456789,
+        "usu_direccion": "Calle 123, Bucaramanga",
+        "usu_email": "david@email.com",
+        "usu_tipodoc": "Cédula",
+        "usu_genero": "Masculino",
+        "usu_acudiente": "Sofía Luna"
+    },
+    {
+        "usu_nombre": "Marta",
+        "usu_apellido": "Sánchez",
+        "usu_telefono": 398765432,
+        "usu_direccion": "Avenida Principal",
+        "usu_email": "marta@email.com",
+        "usu_tipodoc": "Cédula",
+        "usu_genero": "Femenino",
+        "usu_acudiente": "Luis Sánchez"
+    }
+]
+
+
+// ---------------------------------------
+// --------------  CITAS  ----------------
+// ---------------------------------------
+
+[
+    {
+        "cit_fecha": "2023-09-20 10:00 AM",
+        "cit_estadoCita": "Programada",
+        "cit_medico": "Dr. Juan Pérez",
+        "cit_datosUsuario": {
+            "usu_nombre": "Ana",
+            "usu_apellido": "López",
+            "usu_telefono": 312345678,
+            "usu_direccion": "Calle 456, Ciudad",
+            "usu_email": "ana@email.com",
+            "usu_tipodoc": "Cédula",
+            "usu_genero": "Femenino",
+            "usu_acudiente": "Pedro López"
+        }
+    },
+    {
+        "cit_fecha": "2023-09-21 11:30 AM",
+        "cit_estadoCita": "Programada",
+        "cit_medico": "Dra. María González",
+        "cit_datosUsuario": {
+            "usu_nombre": "Carlos",
+            "usu_apellido": "Martínez",
+            "usu_telefono": 385432109,
+            "usu_direccion": "Avenida Principal",
+            "usu_email": "carlos@email.com",
+            "usu_tipodoc": "Cédula",
+            "usu_genero": "Masculino",
+            "usu_acudiente": "Ana Martínez"
+        }
+    },
+    {
+        "cit_fecha": "2023-09-22 3:15 PM",
+        "cit_estadoCita": "Programada",
+        "cit_medico": "Dr. Carlos Martínez",
+        "cit_datosUsuario": {
+            "usu_nombre": "Laura",
+            "usu_apellido": "Ramírez",
+            "usu_telefono": 378901234,
+            "usu_direccion": "Calle 789, Ciudad",
+            "usu_email": "laura@email.com",
+            "usu_tipodoc": "Cédula",
+            "usu_genero": "Femenino",
+            "usu_acudiente": "Luis Ramírez"
+        }
+    },
+    {
+        "cit_fecha": "2023-09-23 2:00 PM",
+        "cit_estadoCita": "Programada",
+        "cit_medico": "Lic. Ana Rodríguez",
+        "cit_datosUsuario": {
+            "usu_nombre": "Andrés",
+            "usu_apellido": "Fernández",
+            "usu_telefono": 387654321,
+            "usu_direccion": "Avenida Secundaria",
+            "usu_email": "andres@email.com",
+            "usu_tipodoc": "Cédula",
+            "usu_genero": "Masculino",
+            "usu_acudiente": "María Fernández"
+        }
+    },
+    {
+        "cit_fecha": "2023-09-24 9:45 AM",
+        "cit_estadoCita": "Programada",
+        "cit_medico": "Dr. Luis Sánchez",
+        "cit_datosUsuario": {
+            "usu_nombre": "Sofía",
+            "usu_apellido": "Martínez",
+            "usu_telefono": 398765432,
+            "usu_direccion": "Calle 567, Ciudad",
+            "usu_email": "sofia@email.com",
+            "usu_tipodoc": "Cédula",
+            "usu_genero": "Femenino",
+            "usu_acudiente": "Pedro Martínez"
+        }
+    },
+    {
+        "cit_fecha": "2023-09-25 4:30 PM",
+        "cit_estadoCita": "Programada",
+        "cit_medico": "Dr. Miguel López",
+        "cit_datosUsuario": {
+            "usu_nombre": "Juan",
+            "usu_apellido": "Gómez",
+            "usu_telefono": 395432109,
+            "usu_direccion": "Avenida Principal",
+            "usu_email": "juan@email.com",
+            "usu_tipodoc": "Cédula",
+            "usu_genero": "Masculino",
+            "usu_acudiente": "Ana Gómez"
+        }
+    },
+    {
+        "cit_fecha": "2023-09-26 1:20 PM",
+        "cit_estadoCita": "Programada",
+        "cit_medico": "Dra. Laura García",
+        "cit_datosUsuario": {
+            "usu_nombre": "Luis",
+            "usu_apellido": "Pérez",
+            "usu_telefono": 392109876,
+            "usu_direccion": "Calle 901, Ciudad",
+            "usu_email": "luis@email.com",
+            "usu_tipodoc": "Cédula",
+            "usu_genero": "Masculino",
+            "usu_acudiente": "María Pérez"
+        }
+    },
+    {
+        "cit_fecha": "2023-09-27 5:00 PM",
+        "cit_estadoCita": "Programada",
+        "cit_medico": "Dra. Patricia Fernández",
+        "cit_datosUsuario": {
+            "usu_nombre": "Elena",
+            "usu_apellido": "Díaz",
+            "usu_telefono": 399876543,
+            "usu_direccion": "Avenida Secundaria",
+            "usu_email": "elena@email.com",
+            "usu_tipodoc": "Cédula",
+            "usu_genero": "Femenino",
+            "usu_acudiente": "Carlos Díaz"
+        }
+    },
+    {
+        "cit_fecha": "2023-09-28 11:00 AM",
+        "cit_estadoCita": "Programada",
+        "cit_medico": "Dr. Eduardo Ramírez",
+        "cit_datosUsuario": {
+            "usu_nombre": "David",
+            "usu_apellido": "Luna",
+            "usu_telefono": 393456789,
+            "usu_direccion": "Calle 123, Ciudad",
+            "usu_email": "david@email.com",
+            "usu_tipodoc": "Cédula",
+            "usu_genero": "Masculino",
+            "usu_acudiente": "Sofía Luna"
+        }
+    },
+    {
+        "cit_fecha": "2023-09-29 3:30 PM",
+        "cit_estadoCita": "Programada",
+        "cit_medico": "Dr. Ana López",
+        "cit_datosUsuario": {
+            "usu_nombre": "Marta",
+            "usu_apellido": "Sánchez",
+            "usu_telefono": 398765432,
+            "usu_direccion": "Avenida Principal",
+            "usu_email": "marta@email.com",
+            "usu_tipodoc": "Cédula",
+            "usu_genero": "Femenino",
+            "usu_acudiente": "Luis Sánchez"
+        }
+    }
+]
+
+
+// ---------------------------------------
+// ----------  ESTADO CITA  --------------
+// ---------------------------------------
+
+[
+    {
+        "estado_cita": "Programada"
+    },
+    {
+        "estado_cita": "Cancelada"
+    },
+    {
+        "estado_cita": "Confirmada"
+    },
+    {
+        "estado_cita": "Reprogramada"
+    },
+    {
+        "estado_cita": "En Curso"
+    },
+    {
+        "estado_cita": "Atendida"
+    }
+]
+
+
+// ---------------------------------------
+// --------------  MEDICO  ---------------
+// ---------------------------------------
+
+[
+    {
+        "med_nombreCompleto": "Dr. Juan Pérez",
+        "med_consultorio": "Consultorio Médico Dr. Pérez",
+        "med_especialidad": "Medicina General"
+    },
+    {
+        "med_nombreCompleto": "Dra. María González",
+        "med_consultorio": "Consultorio de Pediatría Dra. González",
+        "med_especialidad": "Pediatría"
+    },
+    {
+        "med_nombreCompleto": "Dr. Carlos Martínez",
+        "med_consultorio": "Consultorio de Ginecología y Obstetricia Dr. Martínez",
+        "med_especialidad": "Ginecología y Obstetricia"
+    },
+    {
+        "med_nombreCompleto": "Lic. Ana Rodríguez",
+        "med_consultorio": "Centro de Psicología Integral",
+        "med_especialidad": "Psicología"
+    },
+    {
+        "med_nombreCompleto": "Dr. Luis Sánchez",
+        "med_consultorio": "Clínica Dental Sonrisas Felices",
+        "med_especialidad": "Odontología"
+    },
+    {
+        "med_nombreCompleto": "Dra. Laura García",
+        "med_consultorio": "Clínica de Nutrición NutriSalud",
+        "med_especialidad": "Nutrición"
+    },
+    {
+        "med_nombreCompleto": "Dr. Miguel López",
+        "med_consultorio": "Consultorio de Dermatología Estética",
+        "med_especialidad": "Dermatología"
+    },
+    {
+        "med_nombreCompleto": "Dra. Patricia Fernández",
+        "med_consultorio": "Clínica de Fisioterapia RehabilitaSalud",
+        "med_especialidad": "Fisioterapia"
+    },
+    {
+        "med_nombreCompleto": "Dr. Eduardo Ramírez",
+        "med_consultorio": "Centro Médico Cardiológico CardioVida",
+        "med_especialidad": "Cardiología"
+    },
+    {
+        "med_nombreCompleto": "Dr. Ana López",
+        "med_consultorio": "Consultorio de Oftalmología Visión Clara",
+        "med_especialidad": "Oftalmología"
+    }
+]
+
+
+// ---------------------------------------
+// ----------  ESPECIALIDAD  -------------
+// ---------------------------------------
+
+[
+    {
+        "esp_nombre": "Medicina General"
+    },
+    {
+        "esp_nombre": "Odontología"
+    },
+    {
+        "esp_nombre": "Pediatría"
+    },
+    {
+        "esp_nombre": "Psicología"
+    },
+    {
+        "esp_nombre": "Ginecología y Obstetricia"
+    },
+    {
+        "esp_nombre": "Fisioterapia"
+    },
+    {
+        "esp_nombre": "Cardiología"
+    },
+    {
+        "esp_nombre": "Dermatología"
+    },
+    {
+        "esp_nombre": "Nutrición"
+    },
+    {
+        "esp_nombre": "Oftalmología"
+    }
+]
+
+
+// ---------------------------------------
+// ----------  CONSULTORIO  --------------
+// ---------------------------------------
+
+[
+    {
+        "cons_nombre": "Consultorio Médico Dr. Pérez"
+    },
+    {
+        "cons_nombre": "Clínica Dental Sonrisas Felices"
+    },
+    {
+        "cons_nombre": "Consultorio de Pediatría Dra. González"
+    },
+    {
+        "cons_nombre": "Centro de Psicología Integral"
+    },
+    {
+        "cons_nombre": "Consultorio de Ginecología y Obstetricia Dr. Martínez"
+    },
+    {
+        "cons_nombre": "Clínica de Fisioterapia RehabilitaSalud"
+    },
+    {
+        "cons_nombre": "Centro Médico Cardiológico CardioVida"
+    },
+    {
+        "cons_nombre": "Consultorio de Dermatología Estética"
+    },
+    {
+        "cons_nombre": "Clínica de Nutrición NutriSalud"
+    },
+    {
+        "cons_nombre": "Consultorio de Oftalmología Visión Clara"
+    }
+]
